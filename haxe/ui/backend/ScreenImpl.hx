@@ -23,7 +23,7 @@ class ScreenImpl extends ScreenBase {
     }
 
     private override function set_title(s:String):String {
-        Curses.PDC_set_title(s);
+        Curses.set_title(s);
         return s;
     }
     
